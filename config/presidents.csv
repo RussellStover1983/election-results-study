@@ -1,0 +1,35 @@
+election_year,president,party,midterm_in_tenure,midterm_in_career,party_wh_midterm,note
+1894,Grover Cleveland,Democrat,1,2,1,second non-consecutive term (first midterm 1886)
+1898,William McKinley,Republican,1,1,1,
+1902,Theodore Roosevelt,Republican,1,1,2,succeeded McKinley Sept 1901
+1906,Theodore Roosevelt,Republican,2,2,3,
+1910,William Howard Taft,Republican,1,1,4,
+1914,Woodrow Wilson,Democrat,1,1,1,
+1918,Woodrow Wilson,Democrat,2,2,2,
+1922,Warren G. Harding,Republican,1,1,1,
+1926,Calvin Coolidge,Republican,1,1,2,succeeded Harding Aug 1923
+1930,Herbert Hoover,Republican,1,1,3,
+1934,Franklin D. Roosevelt,Democrat,1,1,1,
+1938,Franklin D. Roosevelt,Democrat,2,2,2,
+1942,Franklin D. Roosevelt,Democrat,3,3,3,
+1946,Harry S. Truman,Democrat,1,1,4,succeeded FDR Apr 1945
+1950,Harry S. Truman,Democrat,2,2,5,
+1954,Dwight D. Eisenhower,Republican,1,1,1,
+1958,Dwight D. Eisenhower,Republican,2,2,2,
+1962,John F. Kennedy,Democrat,1,1,1,
+1966,Lyndon B. Johnson,Democrat,1,1,2,succeeded JFK Nov 1963
+1970,Richard Nixon,Republican,1,1,1,
+1974,Gerald Ford,Republican,1,1,2,succeeded Nixon Aug 1974
+1978,Jimmy Carter,Democrat,1,1,1,
+1982,Ronald Reagan,Republican,1,1,1,
+1986,Ronald Reagan,Republican,2,2,2,
+1990,George H. W. Bush,Republican,1,1,3,
+1994,Bill Clinton,Democrat,1,1,1,
+1998,Bill Clinton,Democrat,2,2,2,
+2002,George W. Bush,Republican,1,1,1,
+2006,George W. Bush,Republican,2,2,2,
+2010,Barack Obama,Democrat,1,1,1,
+2014,Barack Obama,Democrat,2,2,2,
+2018,Donald Trump,Republican,1,1,1,
+2022,Joe Biden,Democrat,1,1,1,
+2026,Donald Trump,Republican,1,2,1,second non-consecutive term (first midterm 2018)

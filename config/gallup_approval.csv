@@ -1,0 +1,35 @@
+election_year,president,approval_pct,poll_timing,source,verified_against_source
+1894,Grover Cleveland,,,no scientific polling before 1935,
+1898,William McKinley,,,no scientific polling before 1935,
+1902,Theodore Roosevelt,,,no scientific polling before 1935,
+1906,Theodore Roosevelt,,,no scientific polling before 1935,
+1910,William Howard Taft,,,no scientific polling before 1935,
+1914,Woodrow Wilson,,,no scientific polling before 1935,
+1918,Woodrow Wilson,,,no scientific polling before 1935,
+1922,Warren G. Harding,,,no scientific polling before 1935,
+1926,Calvin Coolidge,,,no scientific polling before 1935,
+1930,Herbert Hoover,,,no scientific polling before 1935,
+1934,Franklin D. Roosevelt,,,Gallup (AIPO) began national polling in 1935,
+1938,Franklin D. Roosevelt,,,Gallup polled 1938 but did not ask the standard job-approval question on a regular schedule; left blank,
+1942,Franklin D. Roosevelt,,,no comparable Gallup approval reading close to Nov 1942; left blank,
+1946,Harry S. Truman,33,last Gallup reading before the election,"Gallup, 'Presidential Approval Ratings -- Gallup Historical Statistics and Trends' and Gallup midterm-election analyses (news.gallup.com)",no
+1950,Harry S. Truman,39,last Gallup reading before the election,"Gallup, as above",no
+1954,Dwight D. Eisenhower,61,last Gallup reading before the election,"Gallup, as above",no
+1958,Dwight D. Eisenhower,57,last Gallup reading before the election,"Gallup, as above",no
+1962,John F. Kennedy,61,last Gallup reading before the election,"Gallup, as above",no
+1966,Lyndon B. Johnson,44,last Gallup reading before the election,"Gallup, as above",no
+1970,Richard Nixon,58,last Gallup reading before the election,"Gallup, as above",no
+1974,Gerald Ford,54,last Gallup reading before the election,"Gallup, as above",no
+1978,Jimmy Carter,49,last Gallup reading before the election,"Gallup, as above",no
+1982,Ronald Reagan,42,last Gallup reading before the election,"Gallup, as above",no
+1986,Ronald Reagan,63,last Gallup reading before the election,"Gallup, as above",no
+1990,George H. W. Bush,58,last Gallup reading before the election,"Gallup, as above",no
+1994,Bill Clinton,46,last Gallup reading before the election,"Gallup, as above",no
+1998,Bill Clinton,66,last Gallup reading before the election,"Gallup, as above",no
+2002,George W. Bush,63,last Gallup reading before the election,"Gallup, as above",no
+2006,George W. Bush,38,last Gallup reading before the election,"Gallup, as above",no
+2010,Barack Obama,45,last Gallup reading before the election,"Gallup, as above",no
+2014,Barack Obama,42,last Gallup reading before the election,"Gallup, as above",no
+2018,Donald Trump,40,last Gallup reading before the election,"Gallup, as above",no
+2022,Joe Biden,40,last Gallup reading before the election,"Gallup, as above",no
+2026,Donald Trump,,,"not entered: no Gallup reading available to this pipeline; fill in from news.gallup.com",

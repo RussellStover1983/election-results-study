@@ -1,0 +1,135 @@
+election_year,chamber,total,dem,rep,other,source,caucus_note,vacant,dem_eday,rep_eday,other_eday,filled_eday
+1892,house,356,218,124,14,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1894,house,357,93,254,10,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1896,house,357,124,206,27,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1898,house,357,161,187,9,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1900,house,357,151,200,6,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1902,house,386,176,207,3,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1904,house,386,135,251,0,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1906,house,391,167,223,1,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1908,house,391,172,219,0,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1910,house,394,230,162,2,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1912,house,435,291,134,10,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1914,house,435,230,196,9,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1916,house,435,214,215,6,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1918,house,435,192,240,3,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1920,house,435,132,302,1,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1922,house,435,207,225,3,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1924,house,435,183,247,5,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1926,house,435,194,238,3,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1928,house,435,164,270,1,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1930,house,435,216,218,1,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1932,house,435,313,117,5,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1934,house,435,322,103,10,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1936,house,435,334,88,13,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1938,house,435,262,169,4,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1940,house,435,267,162,6,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1942,house,435,222,209,4,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1944,house,435,244,189,2,House Historian table via pinned mirror (jcervas/democracys-data),,,,,,
+1946,house,435,188,246,1,House Historian table via pinned mirror (jcervas/democracys-data),,,242.0,191.0,2.0,435.0
+1948,house,435,263,171,1,House Historian table via pinned mirror (jcervas/democracys-data),,,188.0,247.0,2.0,437.0
+1950,house,435,235,199,1,House Historian table via pinned mirror (jcervas/democracys-data),,,262.0,173.0,2.0,437.0
+1952,house,435,213,221,1,House Historian table via pinned mirror (jcervas/democracys-data),,,235.0,201.0,1.0,437.0
+1954,house,435,232,203,0,House Historian table via pinned mirror (jcervas/democracys-data),,,214.0,221.0,1.0,436.0
+1956,house,435,232,203,0,House Historian table via pinned mirror (jcervas/democracys-data),,,233.0,204.0,0.0,437.0
+1958,house,436,282,153,1,House Historian table via pinned mirror (jcervas/democracys-data),,,237.0,200.0,0.0,437.0
+1960,house,437,264,173,0,House Historian table via pinned mirror (jcervas/democracys-data),,,282.0,154.0,1.0,437.0
+1962,house,435,258,176,1,House Historian table via pinned mirror (jcervas/democracys-data),,,263.0,174.0,0.0,437.0
+1964,house,435,295,140,0,House Historian table via pinned mirror (jcervas/democracys-data),,,258.0,177.0,0.0,435.0
+1966,house,435,248,187,0,House Historian table via pinned mirror (jcervas/democracys-data),,,295.0,140.0,0.0,435.0
+1968,house,435,243,192,0,House Historian table via pinned mirror (jcervas/democracys-data),,,247.0,186.0,0.0,433.0
+1970,house,435,255,180,0,House Historian table via pinned mirror (jcervas/democracys-data),,,243.0,192.0,0.0,435.0
+1972,house,435,243,192,0,House Historian table via pinned mirror (jcervas/democracys-data),,,256.0,179.0,0.0,435.0
+1974,house,435,291,144,0,House Historian table via pinned mirror (jcervas/democracys-data),,,241.0,193.0,1.0,435.0
+1976,house,435,292,143,0,House Historian table via pinned mirror (jcervas/democracys-data),,,288.0,146.0,0.0,434.0
+1978,house,435,278,157,0,House Historian table via pinned mirror (jcervas/democracys-data),,,291.0,144.0,0.0,435.0
+1980,house,435,243,192,0,House Historian table via pinned mirror (jcervas/democracys-data),,,276.0,159.0,0.0,435.0
+1982,house,435,269,166,0,House Historian table via pinned mirror (jcervas/democracys-data),,,241.0,193.0,1.0,435.0
+1984,house,435,253,181,1,House Historian table via pinned mirror (jcervas/democracys-data),,,268.0,167.0,0.0,435.0
+1986,house,435,258,177,0,House Historian table via pinned mirror (jcervas/democracys-data),,,253.0,182.0,0.0,435.0
+1988,house,435,260,175,0,House Historian table via pinned mirror (jcervas/democracys-data),,,258.0,177.0,0.0,435.0
+1990,house,435,268,167,0,House Historian table via pinned mirror (jcervas/democracys-data),Bernard Sanders (I) counted as Democrat;,,259.0,176.0,0.0,435.0
+1992,house,435,259,176,0,House Historian table via pinned mirror (jcervas/democracys-data),Bernard Sanders (I) counted as Democrat;,,268.0,165.0,2.0,435.0
+1994,house,435,205,230,0,House Historian table via pinned mirror (jcervas/democracys-data),Bernard Sanders (I) counted as Democrat;,,257.0,178.0,0.0,435.0
+1996,house,435,208,226,1,House Historian table via pinned mirror (jcervas/democracys-data),Bernard Sanders (I) counted as Democrat;,,199.0,236.0,0.0,435.0
+1998,house,435,212,223,0,House Historian table via pinned mirror (jcervas/democracys-data),Bernard Sanders (I) counted as Democrat;,,207.0,228.0,0.0,435.0
+2000,house,435,213,221,1,House Historian table via pinned mirror (jcervas/democracys-data),Bernard Sanders (I) counted as Democrat;,,211.0,223.0,1.0,435.0
+2002,house,435,206,229,0,House Historian table via pinned mirror (jcervas/democracys-data),Bernard Sanders (I) counted as Democrat;,,212.0,223.0,0.0,435.0
+2004,house,435,203,232,0,House Historian table via pinned mirror (jcervas/democracys-data),Bernard Sanders (I) counted as Democrat;,,206.0,229.0,0.0,435.0
+2006,house,435,233,202,0,House Historian table via pinned mirror (jcervas/democracys-data),,,203.0,232.0,0.0,435.0
+2008,house,435,257,178,0,House Historian table via pinned mirror (jcervas/democracys-data),,,236.0,199.0,0.0,435.0
+2010,house,435,193,242,0,House Historian table via pinned mirror (jcervas/democracys-data),,,256.0,179.0,0.0,435.0
+2012,house,435,201,234,0,House Historian table via pinned mirror (jcervas/democracys-data),,,193.0,242.0,0.0,435.0
+2014,house,435,188,247,0,House Historian table via pinned mirror (jcervas/democracys-data),,,201.0,234.0,0.0,435.0
+2016,house,435,194,241,0,House Historian table via pinned mirror (jcervas/democracys-data),,,188.0,247.0,0.0,435.0
+2018,house,435,235,199,1,House Historian table via pinned mirror (jcervas/democracys-data),,,195.0,240.0,0.0,435.0
+2020,house,435,222,212,1,House Historian table via pinned mirror (jcervas/democracys-data),,,233.0,201.0,1.0,435.0
+2022,house,435,213,222,0,House Historian table via pinned mirror (jcervas/democracys-data),,,222.0,213.0,0.0,435.0
+2024,house,435,215,220,0,House Historian table via pinned mirror (jcervas/democracys-data),,,214.0,221.0,0.0,435.0
+1892,senate,88,43,38,4,"congress-legislators (seat-level count, caucus-adjusted)",,3.0,39.0,47.0,2.0,88.0
+1894,senate,88,40,40,7,"congress-legislators (seat-level count, caucus-adjusted)",,1.0,44.0,37.0,4.0,85.0
+1896,senate,90,37,45,7,"congress-legislators (seat-level count, caucus-adjusted)",,1.0,39.0,42.0,8.0,89.0
+1898,senate,90,29,54,3,"congress-legislators (seat-level count, caucus-adjusted)",,4.0,37.0,46.0,7.0,90.0
+1900,senate,90,32,53,2,"congress-legislators (seat-level count, caucus-adjusted)",,3.0,29.0,54.0,4.0,87.0
+1902,senate,90,33,57,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,32.0,55.0,1.0,88.0
+1904,senate,90,32,56,0,"congress-legislators (seat-level count, caucus-adjusted)",,2.0,33.0,57.0,0.0,90.0
+1906,senate,90,31,60,0,"congress-legislators (seat-level count, caucus-adjusted)",,-1.0,33.0,57.0,0.0,90.0
+1908,senate,92,32,60,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,31.0,61.0,0.0,92.0
+1910,senate,92,41,50,0,"congress-legislators (seat-level count, caucus-adjusted)",,1.0,33.0,59.0,0.0,92.0
+1912,senate,96,51,45,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,43.0,52.0,0.0,95.0
+1914,senate,96,56,40,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,53.0,43.0,0.0,96.0
+1916,senate,96,54,42,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,56.0,40.0,0.0,96.0
+1918,senate,96,47,49,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,52.0,44.0,0.0,96.0
+1920,senate,96,37,58,0,"congress-legislators (seat-level count, caucus-adjusted)",,1.0,47.0,49.0,0.0,96.0
+1922,senate,96,42,53,1,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,36.0,60.0,0.0,96.0
+1924,senate,96,40,55,1,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,43.0,51.0,2.0,96.0
+1926,senate,96,47,47,1,"congress-legislators (seat-level count, caucus-adjusted)",,1.0,40.0,55.0,1.0,96.0
+1928,senate,96,39,56,1,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,46.0,48.0,1.0,95.0
+1930,senate,96,46,48,1,"congress-legislators (seat-level count, caucus-adjusted)",,1.0,39.0,56.0,1.0,96.0
+1932,senate,96,59,36,1,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,48.0,47.0,1.0,96.0
+1934,senate,96,69,26,1,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,60.0,35.0,1.0,96.0
+1936,senate,96,74,17,3,"congress-legislators (seat-level count, caucus-adjusted)",,2.0,70.0,24.0,2.0,96.0
+1938,senate,96,69,24,3,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,77.0,16.0,3.0,96.0
+1940,senate,96,66,28,2,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,69.0,25.0,2.0,96.0
+1942,senate,96,57,38,1,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,65.0,29.0,2.0,96.0
+1944,senate,96,57,38,1,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,58.0,37.0,1.0,96.0
+1946,senate,96,45,51,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,56.0,39.0,1.0,96.0
+1948,senate,96,54,42,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,45.0,51.0,0.0,96.0
+1950,senate,96,49,46,1,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,54.0,42.0,0.0,96.0
+1952,senate,96,47,48,1,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,49.0,46.0,1.0,96.0
+1954,senate,96,48,47,1,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,46.0,49.0,1.0,96.0
+1956,senate,96,49,47,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,48.0,47.0,1.0,96.0
+1958,senate,98,65,35,0,"congress-legislators (seat-level count, caucus-adjusted)",,-2.0,49.0,47.0,0.0,96.0
+1960,senate,100,65,35,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,66.0,34.0,0.0,100.0
+1962,senate,100,67,33,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,64.0,36.0,0.0,100.0
+1964,senate,100,68,32,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,66.0,34.0,0.0,100.0
+1966,senate,100,64,36,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,67.0,33.0,0.0,100.0
+1968,senate,100,57,42,0,"congress-legislators (seat-level count, caucus-adjusted)",,1.0,63.0,37.0,0.0,100.0
+1970,senate,100,55,43,1,"congress-legislators (seat-level count, caucus-adjusted)",,1.0,57.0,43.0,0.0,100.0
+1972,senate,100,57,42,1,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,55.0,44.0,1.0,100.0
+1974,senate,100,61,37,1,"congress-legislators (seat-level count, caucus-adjusted)",,1.0,58.0,41.0,1.0,100.0
+1976,senate,100,62,38,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,62.0,37.0,1.0,100.0
+1978,senate,100,59,41,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,62.0,38.0,0.0,100.0
+1980,senate,100,47,53,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,59.0,41.0,0.0,100.0
+1982,senate,100,46,54,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,46.0,54.0,0.0,100.0
+1984,senate,100,47,53,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,45.0,55.0,0.0,100.0
+1986,senate,100,55,45,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,47.0,53.0,0.0,100.0
+1988,senate,100,55,45,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,54.0,46.0,0.0,100.0
+1990,senate,100,56,44,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,55.0,45.0,0.0,100.0
+1992,senate,100,57,43,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,57.0,43.0,0.0,100.0
+1994,senate,100,48,52,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,56.0,44.0,0.0,100.0
+1996,senate,100,45,55,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,47.0,53.0,0.0,100.0
+1998,senate,100,45,55,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,45.0,55.0,0.0,100.0
+2000,senate,100,50,50,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,46.0,54.0,0.0,100.0
+2002,senate,100,49,51,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,51.0,49.0,0.0,100.0
+2004,senate,100,45,55,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,49.0,51.0,0.0,100.0
+2006,senate,100,51,49,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,45.0,55.0,0.0,100.0
+2008,senate,100,58,41,0,"congress-legislators (seat-level count, caucus-adjusted)",,1.0,51.0,49.0,0.0,100.0
+2010,senate,100,53,47,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,59.0,41.0,0.0,100.0
+2012,senate,100,55,45,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,53.0,47.0,0.0,100.0
+2014,senate,100,46,54,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,55.0,45.0,0.0,100.0
+2016,senate,100,48,52,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,46.0,54.0,0.0,100.0
+2018,senate,100,47,53,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,49.0,51.0,0.0,100.0
+2020,senate,100,49,51,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,47.0,53.0,0.0,100.0
+2022,senate,100,51,49,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,50.0,50.0,0.0,100.0
+2024,senate,100,47,53,0,"congress-legislators (seat-level count, caucus-adjusted)",,0.0,51.0,49.0,0.0,100.0

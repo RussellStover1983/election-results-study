@@ -1,0 +1,8 @@
+election_year,chamber,party,expected_change,source_of_expectation
+1894,house,Democrat,-125,user-supplied check
+1994,house,Republican,54,user-supplied check
+1994,senate,Republican,8,user-supplied check
+2010,house,Republican,63,user-supplied check
+2010,senate,Republican,6,user-supplied check
+2006,house,Democrat,31,user-supplied check
+2006,senate,Democrat,6,user-supplied check

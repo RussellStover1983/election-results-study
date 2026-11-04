@@ -1,0 +1,15 @@
+election_year,chamber,party,baseline,baseline_used,seats_before,seats_after,computed,expected,ok
+1894,house,Democrat,prior_congress_start,prior_congress_start,218,93,-125,-125,True
+1894,house,Democrat,election_day,prior_congress_start (no Election Day snapshot),218,93,-125,-125,True
+1994,house,Republican,prior_congress_start,prior_congress_start,176,230,54,54,True
+1994,house,Republican,election_day,election_day,178,230,52,54,False
+1994,senate,Republican,prior_congress_start,prior_congress_start,43,52,9,8,False
+1994,senate,Republican,election_day,election_day,44,52,8,8,True
+2010,house,Republican,prior_congress_start,prior_congress_start,178,242,64,63,False
+2010,house,Republican,election_day,election_day,179,242,63,63,True
+2010,senate,Republican,prior_congress_start,prior_congress_start,41,47,6,6,True
+2010,senate,Republican,election_day,election_day,41,47,6,6,True
+2006,house,Democrat,prior_congress_start,prior_congress_start,203,233,30,31,False
+2006,house,Democrat,election_day,election_day,203,233,30,31,False
+2006,senate,Democrat,prior_congress_start,prior_congress_start,45,51,6,6,True
+2006,senate,Democrat,election_day,election_day,45,51,6,6,True
