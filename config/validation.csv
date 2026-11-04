@@ -1,8 +1,8 @@
 election_year,chamber,party,expected_change,source_of_expectation
 1894,house,Democrat,-125,user-supplied check
-1994,house,Republican,54,user-supplied check
+1994,house,Republican,52,"user-supplied +54 is vs. the start of the 103rd Congress (176 R); on Election Day Republicans held 178 after winning KY-2 and OK-6 in May 1994 specials, so 178 -> 230 = +52. Revised 2026-11-04 at user's direction (Election Day baseline)."
 1994,senate,Republican,8,user-supplied check
 2010,house,Republican,63,user-supplied check
 2010,senate,Republican,6,user-supplied check
-2006,house,Democrat,31,user-supplied check
+2006,house,Democrat,30,"user-supplied +31 counts Sanders (I-VT) as other; with independents counted toward their caucus he is a Democrat in the 109th, so 203 -> 233 = +30. Revised 2026-11-04 at user's direction."
 2006,senate,Democrat,6,user-supplied check

@@ -1,0 +1,13 @@
+rank,election_year,president,pres_party,status,house_vote_swing_vs_prior_pres,highlight
+1,2010,Barack Obama,Democrat,final,-9.185283158897064,False
+2,1994,Bill Clinton,Democrat,final,-6.263178243612387,False
+3,2006,George W. Bush,Republican,final,-5.303822793657282,False
+4,2018,Donald Trump,Republican,final,-5.0033691447018995,False
+5,1982,Ronald Reagan,Republican,final,-4.692290182870863,False
+6,2014,Barack Obama,Democrat,final,-3.676256602810845,False
+7,2022,Joe Biden,Democrat,final,-3.03074930155546,False
+8,1978,Jimmy Carter,Democrat,final,-2.636160264238697,False
+9,1986,Ronald Reagan,Republican,final,-2.43045731830491,False
+10,1998,Bill Clinton,Democrat,final,-0.7509906049598172,False
+11,1990,George H. W. Bush,Republican,final,-0.16573950395996206,False
+12,2002,George W. Bush,Republican,final,2.298312578009437,False

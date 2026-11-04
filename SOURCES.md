@@ -24,6 +24,12 @@ were reachable. Because of this:
 
 ## Manual overrides
 
+- `config/validation.csv` (2026-11-04, at the user's direction): the default
+  baseline is Election Day, and two expected figures were revised to match it.
+  1994 House GOP goes from +54 to +52: the 176 figure is the start of the 103rd
+  Congress, and on Election Day Republicans held 178 after winning the May 1994
+  KY-2 and OK-6 specials. 2006 House Dem goes from +31 to +30: Sanders (I-VT)
+  is counted as a Democrat under the caucus rule.
 - `config/overrides.csv`: none.
 - `data/2026/manual_calls.csv`: none.
 - Hardcoded tables: `config/presidents.csv` and `config/gallup_approval.csv`.

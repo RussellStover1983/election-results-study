@@ -1,0 +1,19 @@
+rank,election_year,president,pres_party,status,house_lean_sum,highlight
+1,1974,Gerald Ford,Republican,final,1444.36,False
+2,1958,Dwight D. Eisenhower,Republican,final,1117.9800000000002,False
+3,1966,Lyndon B. Johnson,Democrat,final,623.0599999999998,False
+4,1986,Ronald Reagan,Republican,final,318.19999999999993,False
+5,1982,Ronald Reagan,Republican,final,272.4999999999999,False
+6,1954,Dwight D. Eisenhower,Republican,final,234.59999999999997,False
+7,1990,George H. W. Bush,Republican,final,223.27999999999997,False
+8,2006,George W. Bush,Republican,final,218.57999999999998,False
+9,1970,Richard Nixon,Republican,final,183.18000000000006,False
+10,1978,Jimmy Carter,Democrat,final,22.52000000000001,False
+11,1998,Bill Clinton,Democrat,final,12.420000000000002,False
+12,1994,Bill Clinton,Democrat,final,9.599999999999966,False
+13,2014,Barack Obama,Democrat,final,-23.5,False
+14,1962,John F. Kennedy,Democrat,final,-69.58,False
+15,2022,Joe Biden,Democrat,final,-115.92000000000002,False
+16,2018,Donald Trump,Republican,final,-133.52000000000004,False
+17,2010,Barack Obama,Democrat,final,-211.0,False
+18,2002,George W. Bush,Republican,final,-271.86,False

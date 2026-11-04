@@ -1,0 +1,19 @@
+rank,election_year,president,pres_party,status,senate_lean_sum,highlight
+1,1958,Dwight D. Eisenhower,Republican,final,254.31371278208331,False
+2,1986,Ronald Reagan,Republican,final,208.92445850650455,False
+3,1974,Gerald Ford,Republican,final,128.62734623735076,False
+4,1954,Dwight D. Eisenhower,Republican,final,81.76438514642663,False
+5,1966,Lyndon B. Johnson,Democrat,final,57.800218285070855,False
+6,1982,Ronald Reagan,Republican,final,34.625016818989025,False
+7,1994,Bill Clinton,Democrat,final,31.245674931058844,False
+8,1998,Bill Clinton,Democrat,final,27.46708042252223,False
+9,2010,Barack Obama,Democrat,final,21.930122376684608,False
+10,2006,George W. Bush,Republican,final,14.96231299853622,False
+11,2002,George W. Bush,Republican,final,5.608726973345682,False
+12,1978,Jimmy Carter,Democrat,final,1.7695999886705067,False
+13,2018,Donald Trump,Republican,final,1.2475013682847447,False
+14,1970,Richard Nixon,Republican,final,0.7344286919747134,False
+15,2022,Joe Biden,Democrat,final,0.0,False
+16,1990,George H. W. Bush,Republican,final,-7.0944236413318436,False
+17,1962,John F. Kennedy,Democrat,final,-19.041648235963365,False
+18,2014,Barack Obama,Democrat,final,-106.93468393445424,False

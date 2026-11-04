@@ -1,0 +1,34 @@
+rank,election_year,president,pres_party,status,combined_swing_pct,highlight
+1,1894,Grover Cleveland,Democrat,final,-28.98876404494382,False
+2,1922,Warren G. Harding,Republican,final,-15.819209039548022,False
+3,1938,Franklin D. Roosevelt,Democrat,final,-15.065913370998116,False
+4,1910,William Howard Taft,Republican,final,-13.580246913580247,False
+5,2010,Barack Obama,Democrat,final,-12.897196261682243,False
+6,1946,Harry S. Truman,Democrat,final,-12.24105461393597,False
+7,1930,Herbert Hoover,Republican,final,-11.299435028248588,False
+8,1994,Bill Clinton,Democrat,final,-11.214953271028037,False
+9,1958,Dwight D. Eisenhower,Republican,final,-11.04868913857678,False
+10,1914,Woodrow Wilson,Democrat,final,-10.922787193973635,False
+11,1942,Franklin D. Roosevelt,Democrat,final,-9.981167608286253,False
+12,1974,Gerald Ford,Republican,final,-9.906542056074766,False
+13,1966,Lyndon B. Johnson,Democrat,final,-9.345794392523365,False
+14,2018,Donald Trump,Republican,final,-7.289719626168225,False
+15,2006,George W. Bush,Republican,final,-6.728971962616822,False
+16,1950,Harry S. Truman,Democrat,final,-6.0263653483992465,False
+17,1906,Theodore Roosevelt,Republican,final,-5.197505197505198,False
+18,1918,Woodrow Wilson,Democrat,final,-5.084745762711864,False
+19,1982,Ronald Reagan,Republican,final,-5.046728971962617,False
+20,2014,Barack Obama,Democrat,final,-4.11214953271028,False
+21,1954,Dwight D. Eisenhower,Republican,final,-3.766478342749529,False
+22,1926,Calvin Coolidge,Republican,final,-3.2015065913371,False
+23,1978,Jimmy Carter,Democrat,final,-2.9906542056074765,False
+24,1898,William McKinley,Republican,final,-2.460850111856823,False
+25,1986,Ronald Reagan,Republican,final,-2.4299065420560746,False
+26,1970,Richard Nixon,Republican,final,-2.2429906542056073,False
+27,1990,George H. W. Bush,Republican,final,-1.8691588785046729,False
+28,2022,Joe Biden,Democrat,final,-1.4953271028037383,False
+29,1962,John F. Kennedy,Democrat,final,-0.37383177570093457,False
+30,1998,Bill Clinton,Democrat,final,0.9345794392523364,False
+31,2002,George W. Bush,Republican,final,1.4953271028037383,False
+32,1902,Theodore Roosevelt,Republican,final,1.8907563025210083,False
+33,1934,Franklin D. Roosevelt,Democrat,final,3.389830508474576,False
