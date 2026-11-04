@@ -81,7 +81,7 @@ def write_rankings(df: pd.DataFrame, path_dir) -> None:
                 cells = [f"**{c}**" for c in cells]
             lines.append("| " + " | ".join(cells) + " |")
         if len(r26) and 2026 not in set(t.election_year):
-            lines.append(f"| **—** | **2026‡** | **{r26.iloc[0].president}** | **R** | **{r26.iloc[0].status}** |")
+            lines.append(f"| **—** | **2026‡** | **{r26.iloc[0].president}** | **R** | **no result yet ({r26.iloc[0].status})** |")
         lines.append("")
     (path_dir.parent / "rankings.md").write_text("\n".join(lines))
 

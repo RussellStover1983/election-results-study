@@ -5,14 +5,15 @@ rank,election_year,president,pres_party,status,senate_lean_mean,highlight
 4,1966,Lyndon B. Johnson,Democrat,final,19.266739428356953,False
 5,1982,Ronald Reagan,Republican,final,17.312508409494512,False
 6,1954,Dwight D. Eisenhower,Republican,final,16.352877029285327,False
-7,1998,Bill Clinton,Democrat,final,9.155693474174077,False
-8,2002,George W. Bush,Republican,final,5.608726973345682,False
-9,1994,Bill Clinton,Democrat,final,3.9057093663823554,False
-10,2010,Barack Obama,Democrat,final,3.6550203961141015,False
-11,2006,George W. Bush,Republican,final,2.49371883308937,False
-12,2018,Donald Trump,Republican,final,0.6237506841423723,False
-13,1970,Richard Nixon,Republican,final,0.24480956399157114,False
-14,1978,Jimmy Carter,Democrat,final,0.22119999858381334,False
-15,1962,John F. Kennedy,Democrat,final,-6.347216078654455,False
-16,1990,George H. W. Bush,Republican,final,-7.0944236413318436,False
-17,2014,Barack Obama,Democrat,final,-11.881631548272694,False
+7,2026,Donald Trump,Republican,preliminary,9.92627367075472,True
+8,1998,Bill Clinton,Democrat,final,9.155693474174077,False
+9,2002,George W. Bush,Republican,final,5.608726973345682,False
+10,1994,Bill Clinton,Democrat,final,3.9057093663823554,False
+11,2010,Barack Obama,Democrat,final,3.6550203961141015,False
+12,2006,George W. Bush,Republican,final,2.49371883308937,False
+13,2018,Donald Trump,Republican,final,0.6237506841423723,False
+14,1970,Richard Nixon,Republican,final,0.24480956399157114,False
+15,1978,Jimmy Carter,Democrat,final,0.22119999858381334,False
+16,1962,John F. Kennedy,Democrat,final,-6.347216078654455,False
+17,1990,George H. W. Bush,Republican,final,-7.0944236413318436,False
+18,2014,Barack Obama,Democrat,final,-11.881631548272694,False

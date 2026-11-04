@@ -2,7 +2,7 @@
 
 Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remain); see `midterms.csv` columns `races_called`, `races_uncalled`, `*_swing_min/max`.
 
-2026 status: **pending (no races called)** — 0 races called, 470 uncalled (calls snapshot: none).
+2026 status: **preliminary** — 33 races called, 437 uncalled (calls snapshot: none).
 
 ## House net seat swing (seats)
 
@@ -41,7 +41,7 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 31 | 2002 | George W. Bush | R | +6 |
 | 32 | 1902 | Theodore Roosevelt | R | +7 |
 | 33 | 1934 | Franklin D. Roosevelt | D | +9 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
 ## House net seat swing (% of chamber)
 
@@ -80,7 +80,7 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 31 | 2002 | George W. Bush | R | +1.4 |
 | 32 | 1902 | Theodore Roosevelt | R | +1.8 |
 | 33 | 1934 | Franklin D. Roosevelt | D | +2.1 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
 ## Senate net seat swing (seats)
 
@@ -97,29 +97,29 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 9 | 1986 | Ronald Reagan | R | -8 |
 | 10 | 1994 | Bill Clinton | D | -8 |
 | 11 | 1922 | Warren G. Harding | R | -7 |
-| 12 | 2006 | George W. Bush | R | -6 |
-| 13 | 2010 | Barack Obama | D | -6 |
-| 14 | 1918 | Woodrow Wilson | D | -5 |
-| 15 | 1950 | Harry S. Truman | D | -5 |
-| 16 | 1894 | Grover Cleveland | D | -4 |
-| 17 | 1974 | Gerald Ford | R | -4 |
-| 18 | 1966 | Lyndon B. Johnson | D | -3 |
-| 19 | 1978 | Jimmy Carter | D | -3 |
-| 20 | 1954 | Dwight D. Eisenhower | R | -2 |
-| 21 | 1990 | George H. W. Bush | R | -1 |
-| 22 | 1970 | Richard Nixon | R | +0 |
-| 23 | 1982 | Ronald Reagan | R | +0 |
-| 24 | 1998 | Bill Clinton | D | +0 |
-| 25 | 2022 | Joe Biden | D | +1 |
-| 26 | 1902 | Theodore Roosevelt | R | +2 |
-| 27 | 2002 | George W. Bush | R | +2 |
-| 28 | 2018 | Donald Trump | R | +2 |
-| 29 | 1906 | Theodore Roosevelt | R | +3 |
-| 30 | 1914 | Woodrow Wilson | D | +3 |
-| 31 | 1962 | John F. Kennedy | D | +3 |
-| 32 | 1898 | William McKinley | R | +8 |
-| 33 | 1934 | Franklin D. Roosevelt | D | +9 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **12** | **2026‡** | **Donald Trump** | **R** | **-7** |
+| 13 | 2006 | George W. Bush | R | -6 |
+| 14 | 2010 | Barack Obama | D | -6 |
+| 15 | 1918 | Woodrow Wilson | D | -5 |
+| 16 | 1950 | Harry S. Truman | D | -5 |
+| 17 | 1894 | Grover Cleveland | D | -4 |
+| 18 | 1974 | Gerald Ford | R | -4 |
+| 19 | 1966 | Lyndon B. Johnson | D | -3 |
+| 20 | 1978 | Jimmy Carter | D | -3 |
+| 21 | 1954 | Dwight D. Eisenhower | R | -2 |
+| 22 | 1990 | George H. W. Bush | R | -1 |
+| 23 | 1970 | Richard Nixon | R | +0 |
+| 24 | 1982 | Ronald Reagan | R | +0 |
+| 25 | 1998 | Bill Clinton | D | +0 |
+| 26 | 2022 | Joe Biden | D | +1 |
+| 27 | 1902 | Theodore Roosevelt | R | +2 |
+| 28 | 2002 | George W. Bush | R | +2 |
+| 29 | 2018 | Donald Trump | R | +2 |
+| 30 | 1906 | Theodore Roosevelt | R | +3 |
+| 31 | 1914 | Woodrow Wilson | D | +3 |
+| 32 | 1962 | John F. Kennedy | D | +3 |
+| 33 | 1898 | William McKinley | R | +8 |
+| 34 | 1934 | Franklin D. Roosevelt | D | +9 |
 
 ## Senate net seat swing (% of chamber)
 
@@ -136,29 +136,29 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 9 | 1986 | Ronald Reagan | R | -8 |
 | 10 | 1994 | Bill Clinton | D | -8 |
 | 11 | 1922 | Warren G. Harding | R | -7.3 |
-| 12 | 2006 | George W. Bush | R | -6 |
-| 13 | 2010 | Barack Obama | D | -6 |
-| 14 | 1918 | Woodrow Wilson | D | -5.2 |
-| 15 | 1950 | Harry S. Truman | D | -5.2 |
-| 16 | 1894 | Grover Cleveland | D | -4.5 |
-| 17 | 1974 | Gerald Ford | R | -4 |
-| 18 | 1966 | Lyndon B. Johnson | D | -3 |
-| 19 | 1978 | Jimmy Carter | D | -3 |
-| 20 | 1954 | Dwight D. Eisenhower | R | -2.1 |
-| 21 | 1990 | George H. W. Bush | R | -1 |
-| 22 | 1970 | Richard Nixon | R | +0 |
-| 23 | 1982 | Ronald Reagan | R | +0 |
-| 24 | 1998 | Bill Clinton | D | +0 |
-| 25 | 2022 | Joe Biden | D | +1 |
-| 26 | 2002 | George W. Bush | R | +2 |
-| 27 | 2018 | Donald Trump | R | +2 |
-| 28 | 1902 | Theodore Roosevelt | R | +2.2 |
-| 29 | 1962 | John F. Kennedy | D | +3 |
-| 30 | 1914 | Woodrow Wilson | D | +3.1 |
-| 31 | 1906 | Theodore Roosevelt | R | +3.3 |
-| 32 | 1898 | William McKinley | R | +8.9 |
-| 33 | 1934 | Franklin D. Roosevelt | D | +9.4 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **12** | **2026‡** | **Donald Trump** | **R** | **-7** |
+| 13 | 2006 | George W. Bush | R | -6 |
+| 14 | 2010 | Barack Obama | D | -6 |
+| 15 | 1918 | Woodrow Wilson | D | -5.2 |
+| 16 | 1950 | Harry S. Truman | D | -5.2 |
+| 17 | 1894 | Grover Cleveland | D | -4.5 |
+| 18 | 1974 | Gerald Ford | R | -4 |
+| 19 | 1966 | Lyndon B. Johnson | D | -3 |
+| 20 | 1978 | Jimmy Carter | D | -3 |
+| 21 | 1954 | Dwight D. Eisenhower | R | -2.1 |
+| 22 | 1990 | George H. W. Bush | R | -1 |
+| 23 | 1970 | Richard Nixon | R | +0 |
+| 24 | 1982 | Ronald Reagan | R | +0 |
+| 25 | 1998 | Bill Clinton | D | +0 |
+| 26 | 2022 | Joe Biden | D | +1 |
+| 27 | 2002 | George W. Bush | R | +2 |
+| 28 | 2018 | Donald Trump | R | +2 |
+| 29 | 1902 | Theodore Roosevelt | R | +2.2 |
+| 30 | 1962 | John F. Kennedy | D | +3 |
+| 31 | 1914 | Woodrow Wilson | D | +3.1 |
+| 32 | 1906 | Theodore Roosevelt | R | +3.3 |
+| 33 | 1898 | William McKinley | R | +8.9 |
+| 34 | 1934 | Franklin D. Roosevelt | D | +9.4 |
 
 ## Combined net seat swing (seats)
 
@@ -197,7 +197,7 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 31 | 2002 | George W. Bush | R | +8 |
 | 32 | 1902 | Theodore Roosevelt | R | +9 |
 | 33 | 1934 | Franklin D. Roosevelt | D | +18 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
 ## Combined net seat swing (% of all seats)
 
@@ -236,7 +236,7 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 31 | 2002 | George W. Bush | R | +1.5 |
 | 32 | 1902 | Theodore Roosevelt | R | +1.9 |
 | 33 | 1934 | Franklin D. Roosevelt | D | +3.4 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
 ## House share of exposed majority lost
 
@@ -266,7 +266,7 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 22 | 1902 | Theodore Roosevelt | R | 0.00 |
 | 23 | 1934 | Franklin D. Roosevelt | D | 0.00 |
 | 24 | 2002 | George W. Bush | R | 0.00 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
 ## Senate share of exposed majority lost
 
@@ -274,32 +274,32 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 |---:|---|---|---|---:|
 | 1 | 1894 | Grover Cleveland | D | 4.00 |
 | 2 | 1986 | Ronald Reagan | R | 2.00 |
-| 3 | 2014 | Barack Obama | D | 1.50 |
-| 4 | 1946 | Harry S. Truman | D | 1.22 |
-| 5 | 1994 | Bill Clinton | D | 1.14 |
-| 6 | 1918 | Woodrow Wilson | D | 1.00 |
-| 7 | 1926 | Calvin Coolidge | R | 1.00 |
-| 8 | 1954 | Dwight D. Eisenhower | R | 1.00 |
-| 9 | 2006 | George W. Bush | R | 1.00 |
-| 10 | 1930 | Herbert Hoover | R | 0.89 |
-| 11 | 1950 | Harry S. Truman | D | 0.71 |
-| 12 | 1910 | William Howard Taft | R | 0.64 |
-| 13 | 2010 | Barack Obama | D | 0.60 |
-| 14 | 1922 | Warren G. Harding | R | 0.54 |
-| 15 | 1942 | Franklin D. Roosevelt | D | 0.44 |
-| 16 | 1938 | Franklin D. Roosevelt | D | 0.27 |
-| 17 | 1978 | Jimmy Carter | D | 0.23 |
-| 18 | 1966 | Lyndon B. Johnson | D | 0.17 |
-| 19 | 1898 | William McKinley | R | 0.00 |
-| 20 | 1902 | Theodore Roosevelt | R | 0.00 |
-| 21 | 1906 | Theodore Roosevelt | R | 0.00 |
-| 22 | 1914 | Woodrow Wilson | D | 0.00 |
-| 23 | 1934 | Franklin D. Roosevelt | D | 0.00 |
-| 24 | 1962 | John F. Kennedy | D | 0.00 |
-| 25 | 1982 | Ronald Reagan | R | 0.00 |
-| 26 | 2018 | Donald Trump | R | 0.00 |
-| 27 | 2022 | Joe Biden | D | 0.00 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **3** | **2026‡** | **Donald Trump** | **R** | **1.75** |
+| 4 | 2014 | Barack Obama | D | 1.50 |
+| 5 | 1946 | Harry S. Truman | D | 1.22 |
+| 6 | 1994 | Bill Clinton | D | 1.14 |
+| 7 | 1918 | Woodrow Wilson | D | 1.00 |
+| 8 | 1926 | Calvin Coolidge | R | 1.00 |
+| 9 | 1954 | Dwight D. Eisenhower | R | 1.00 |
+| 10 | 2006 | George W. Bush | R | 1.00 |
+| 11 | 1930 | Herbert Hoover | R | 0.89 |
+| 12 | 1950 | Harry S. Truman | D | 0.71 |
+| 13 | 1910 | William Howard Taft | R | 0.64 |
+| 14 | 2010 | Barack Obama | D | 0.60 |
+| 15 | 1922 | Warren G. Harding | R | 0.54 |
+| 16 | 1942 | Franklin D. Roosevelt | D | 0.44 |
+| 17 | 1938 | Franklin D. Roosevelt | D | 0.27 |
+| 18 | 1978 | Jimmy Carter | D | 0.23 |
+| 19 | 1966 | Lyndon B. Johnson | D | 0.17 |
+| 20 | 1898 | William McKinley | R | 0.00 |
+| 21 | 1902 | Theodore Roosevelt | R | 0.00 |
+| 22 | 1906 | Theodore Roosevelt | R | 0.00 |
+| 23 | 1914 | Woodrow Wilson | D | 0.00 |
+| 24 | 1934 | Franklin D. Roosevelt | D | 0.00 |
+| 25 | 1962 | John F. Kennedy | D | 0.00 |
+| 26 | 1982 | Ronald Reagan | R | 0.00 |
+| 27 | 2018 | Donald Trump | R | 0.00 |
+| 28 | 2022 | Joe Biden | D | 0.00 |
 
 ## Combined share of exposed majority lost
 
@@ -333,7 +333,7 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 26 | 1934 | Franklin D. Roosevelt | D | 0.00 |
 | 27 | 1982 | Ronald Reagan | R | 0.00 |
 | 28 | 2002 | George W. Bush | R | 0.00 |
-| **29** | **2026‡** | **Donald Trump** | **R** | **0.00** |
+| **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
 ## House lean-weighted flips: total (pts)
 
@@ -357,7 +357,7 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 16 | 2018 | Donald Trump | R | -133.5 |
 | 17 | 2010 | Barack Obama | D | -211 |
 | 18 | 2002 | George W. Bush | R | -271.9 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
 ## House lean-weighted flips: mean lean of flipped seats (pts)
 
@@ -381,7 +381,7 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 16 | 2022 | Joe Biden | D | -4.0 |
 | 17 | 1962 | John F. Kennedy | D | -7.0 |
 | 18 | 2002 | George W. Bush | R | -16.0 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
 ## Senate lean-weighted flips: total (pts)
 
@@ -391,21 +391,21 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 2 | 1986 | Ronald Reagan | R | +208.9 |
 | 3 | 1974 | Gerald Ford | R | +128.6 |
 | 4 | 1954 | Dwight D. Eisenhower | R | +81.8 |
-| 5 | 1966 | Lyndon B. Johnson | D | +57.8 |
-| 6 | 1982 | Ronald Reagan | R | +34.6 |
-| 7 | 1994 | Bill Clinton | D | +31.2 |
-| 8 | 1998 | Bill Clinton | D | +27.5 |
-| 9 | 2010 | Barack Obama | D | +21.9 |
-| 10 | 2006 | George W. Bush | R | +15.0 |
-| 11 | 2002 | George W. Bush | R | +5.6 |
-| 12 | 1978 | Jimmy Carter | D | +1.8 |
-| 13 | 2018 | Donald Trump | R | +1.2 |
-| 14 | 1970 | Richard Nixon | R | +0.7 |
-| 15 | 2022 | Joe Biden | D | +0 |
-| 16 | 1990 | George H. W. Bush | R | -7.1 |
-| 17 | 1962 | John F. Kennedy | D | -19.0 |
-| 18 | 2014 | Barack Obama | D | -106.9 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **5** | **2026‡** | **Donald Trump** | **R** | **+69.5** |
+| 6 | 1966 | Lyndon B. Johnson | D | +57.8 |
+| 7 | 1982 | Ronald Reagan | R | +34.6 |
+| 8 | 1994 | Bill Clinton | D | +31.2 |
+| 9 | 1998 | Bill Clinton | D | +27.5 |
+| 10 | 2010 | Barack Obama | D | +21.9 |
+| 11 | 2006 | George W. Bush | R | +15.0 |
+| 12 | 2002 | George W. Bush | R | +5.6 |
+| 13 | 1978 | Jimmy Carter | D | +1.8 |
+| 14 | 2018 | Donald Trump | R | +1.2 |
+| 15 | 1970 | Richard Nixon | R | +0.7 |
+| 16 | 2022 | Joe Biden | D | +0 |
+| 17 | 1990 | George H. W. Bush | R | -7.1 |
+| 18 | 1962 | John F. Kennedy | D | -19.0 |
+| 19 | 2014 | Barack Obama | D | -106.9 |
 
 ## Senate lean-weighted flips: mean lean (pts)
 
@@ -417,18 +417,18 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 4 | 1966 | Lyndon B. Johnson | D | +19.3 |
 | 5 | 1982 | Ronald Reagan | R | +17.3 |
 | 6 | 1954 | Dwight D. Eisenhower | R | +16.4 |
-| 7 | 1998 | Bill Clinton | D | +9.2 |
-| 8 | 2002 | George W. Bush | R | +5.6 |
-| 9 | 1994 | Bill Clinton | D | +3.9 |
-| 10 | 2010 | Barack Obama | D | +3.7 |
-| 11 | 2006 | George W. Bush | R | +2.5 |
-| 12 | 2018 | Donald Trump | R | +0.6 |
-| 13 | 1970 | Richard Nixon | R | +0.2 |
-| 14 | 1978 | Jimmy Carter | D | +0.2 |
-| 15 | 1962 | John F. Kennedy | D | -6.3 |
-| 16 | 1990 | George H. W. Bush | R | -7.1 |
-| 17 | 2014 | Barack Obama | D | -11.9 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **7** | **2026‡** | **Donald Trump** | **R** | **+9.9** |
+| 8 | 1998 | Bill Clinton | D | +9.2 |
+| 9 | 2002 | George W. Bush | R | +5.6 |
+| 10 | 1994 | Bill Clinton | D | +3.9 |
+| 11 | 2010 | Barack Obama | D | +3.7 |
+| 12 | 2006 | George W. Bush | R | +2.5 |
+| 13 | 2018 | Donald Trump | R | +0.6 |
+| 14 | 1970 | Richard Nixon | R | +0.2 |
+| 15 | 1978 | Jimmy Carter | D | +0.2 |
+| 16 | 1962 | John F. Kennedy | D | -6.3 |
+| 17 | 1990 | George H. W. Bush | R | -7.1 |
+| 18 | 2014 | Barack Obama | D | -11.9 |
 
 ## Combined lean-weighted flips: total (pts)
 
@@ -452,7 +452,7 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 16 | 2018 | Donald Trump | R | -132.3 |
 | 17 | 2010 | Barack Obama | D | -189.1 |
 | 18 | 2002 | George W. Bush | R | -266.3 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
 ## Combined lean-weighted flips: mean lean (pts)
 
@@ -476,7 +476,7 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 16 | 2014 | Barack Obama | D | -5.2 |
 | 17 | 1962 | John F. Kennedy | D | -6.8 |
 | 18 | 2002 | George W. Bush | R | -14.8 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
 ## National House vote swing vs prior presidential year (pts)
 
@@ -494,7 +494,7 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 10 | 1998 | Bill Clinton | D | -0.8 |
 | 11 | 1990 | George H. W. Bush | R | -0.2 |
 | 12 | 2002 | George W. Bush | R | +2.3 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
 ## National House vote swing vs prior midterm (pts)
 
@@ -511,4 +511,4 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 9 | 1986 | Ronald Reagan | R | +1.0 |
 | 10 | 2002 | George W. Bush | R | +2.1 |
 | 11 | 1998 | Bill Clinton | D | +3.1 |
-| **—** | **2026‡** | **Donald Trump** | **R** | **pending (no races called)** |
+| **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |

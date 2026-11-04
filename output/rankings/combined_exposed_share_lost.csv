@@ -27,4 +27,3 @@ rank,election_year,president,pres_party,status,combined_exposed_share_lost,highl
 26,1934,Franklin D. Roosevelt,Democrat,final,0.0,False
 27,1982,Ronald Reagan,Republican,final,0.0,False
 28,2002,George W. Bush,Republican,final,0.0,False
-29,2026,Donald Trump,Republican,pending (no races called),0.0,True

@@ -31,7 +31,16 @@ were reachable. Because of this:
   KY-2 and OK-6 specials. 2006 House Dem goes from +31 to +30: Sanders (I-VT)
   is counted as a Democrat under the caucus rule.
 - `config/overrides.csv`: none.
-- `data/2026/manual_calls.csv`: none.
+- `data/2026/manual_calls.csv` (2026-11-04, at the user's direction): AP feeds
+  and news sites were still blocked, so the 2026 **Senate** calls were compiled
+  from news reports found by web search. 33 of 35 races are called; each row
+  has its source URL and whether the report attributes the call to AP (most
+  do) or to another network's projection (CO, KS, NJ, NM, SD, VA: CBS; IL,
+  RI: ABC). The 7 Republican-to-Democratic flips (TX, KS, SC, IA, ME, NC, OH)
+  match NBC's reported net Democratic gain of seven. Oregon (Merkley) rests on
+  one CBS listing. Alaska and Mississippi are uncalled. **No House races are
+  entered**; the 2026 House and combined metrics stay blank. Replace these rows
+  with AP snapshots once AP is reachable.
 - Hardcoded tables: `config/presidents.csv` and `config/gallup_approval.csv`.
   The Gallup values were entered from memory and are not verified; see the
   README.

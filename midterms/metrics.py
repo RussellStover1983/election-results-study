@@ -215,19 +215,22 @@ def build_2026(seats: pd.DataFrame, house_vote: pd.DataFrame, calls: pd.DataFram
         for k, v in lm.items():
             row[f"{ch}_{k}"] = v
         flip_rows.append(lean.assign(chamber=ch, pres_party=P))
-    if status["called"] == 0:
-        # nothing called yet: leave every seat metric blank rather than report 0
+    keep = ("seats_before", "opp_seats_before", "chamber_size", "baseline_used", "seat_source", "uncalled",
+            "held_majority", "exposed_majority", "control_before", "swing_min", "swing_max")
+    empty = [ch for ch in CHAMBERS if (calls[calls.chamber == ch].called).sum() == 0]
+    for ch in empty:
+        # nothing called in this chamber yet: blank its results rather than report 0
         for k in list(row):
-            if k.startswith(("house_", "senate_")) and not k.endswith(("seats_before", "opp_seats_before",
-                                                                         "chamber_size", "baseline_used",
-                                                                         "seat_source", "uncalled",
-                                                                         "held_majority", "exposed_majority",
-                                                                         "control_before")):
+            if k.startswith(f"{ch}_") and not k.endswith(keep):
                 row[k] = math.nan
+    if len(empty) == len(CHAMBERS):
         row["status"] = "pending (no races called)"
     hv = house_vote.set_index("year").dem2
     row.update(vote_metrics(hv, y, P))  # 2026 national vote not available until certified
-    df = add_context(combine(pd.DataFrame([row])))
+    df = combine(pd.DataFrame([row]))
+    if empty:  # a combined figure would silently be one chamber's
+        df[[c for c in df.columns if c.startswith("combined_")]] = math.nan
+    df = add_context(df)
     return df, pd.concat(flip_rows, ignore_index=True)
 
 
