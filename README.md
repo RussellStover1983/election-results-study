@@ -48,6 +48,14 @@ All metrics are from the president's party's point of view. "Before" and
      minority.
    - `*_control_flipped` compares which party held more seats before and after.
      A Senate tie goes to the Vice President's party.
+   - **Senate share of seats on the ballot lost** (`senate_up_share_lost`):
+     the president's party's Senate seats lost, divided by the number of its
+     seats that were on the ballot (regular plus special elections). The party's
+     exposure varies a lot between cycles, from 10 seats in 2018 to 32 in 1938,
+     so this is a fairer Senate comparison than raw swing.
+     `senate_opp_seats_up_won` records any offsetting gains. For a preliminary
+     2026, `senate_up_share_lost_max` assumes the party also loses every
+     uncalled seat it holds. Before 1914 the "ballot" was the state legislature.
 3. **Partisan-lean-weighted flips (1954+; 1952 was not a midterm).** For each
    seat that flipped against the president's party, the lean is that party's
    two-party margin, in points, in the previous presidential election in that

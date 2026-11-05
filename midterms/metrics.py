@@ -115,11 +115,29 @@ def build(seats: pd.DataFrame, house_vote: pd.DataFrame, baseline: str) -> tuple
                 all_changes.append(ch_changes.assign(pres_party=P))
                 for k, v in lean_metrics(ch_changes).items():
                     row[f"{ch}_{k}"] = v
+        row.update(senate_up_metrics(y, P))
         row.update(vote_metrics(hv, y, P))
         rows.append(row)
     df = combine(pd.DataFrame(rows))
     changes = pd.concat(all_changes, ignore_index=True) if all_changes else pd.DataFrame()
     return add_context(df), changes
+
+
+def senate_up_metrics(y: int, P: str, lost: int | None = None, gained: int | None = None,
+                      up: pd.DataFrame | None = None) -> dict:
+    """Senate seats actually on the ballot, and the share of the president's
+    party's seats on the ballot that it lost (a fairer Senate measure than raw
+    swing, because a party's exposure varies from 10 to 30+ seats a cycle)."""
+    if up is None:
+        b = leg.seat_holders(y, "senate", "election_day")
+        up = b[b.end <= leg.congress_start(y).isoformat()]
+    if lost is None:
+        ch = fl.seat_changes(y, "senate", P)
+        lost, gained = int(ch.lost.sum()), int(ch.gained.sum())
+    n = int((up.party == P).sum())
+    return {"senate_pres_seats_up": n, "senate_opp_seats_up": int(len(up) - n),
+            "senate_pres_seats_up_lost": lost, "senate_opp_seats_up_won": gained,
+            "senate_up_share_lost": (lost / n) if n else math.nan}
 
 
 def vote_metrics(hv: pd.Series, y: int, P: str) -> dict:
@@ -215,7 +233,12 @@ def build_2026(seats: pd.DataFrame, house_vote: pd.DataFrame, calls: pd.DataFram
         for k, v in lm.items():
             row[f"{ch}_{k}"] = v
         flip_rows.append(lean.assign(chamber=ch, pres_party=P))
-    keep = ("seats_before", "opp_seats_before", "chamber_size", "baseline_used", "seat_source", "uncalled",
+        if ch == "senate":
+            up = c.rename(columns={"incumbent_party": "party"})
+            unc_p = int(((~c.called) & (c.incumbent_party == P)).sum())
+            row.update(senate_up_metrics(y, P, lost=len(ch_flips), gained=len(ch_gain), up=up))
+            row["senate_up_share_lost_max"] = (len(ch_flips) + unc_p) / row["senate_pres_seats_up"]
+    keep = ("seats_up", "up_lost", "up_won", "share_lost_max", "seats_before", "opp_seats_before", "chamber_size", "baseline_used", "seat_source", "uncalled",
             "held_majority", "exposed_majority", "control_before", "swing_min", "swing_max")
     empty = [ch for ch in CHAMBERS if (calls[calls.chamber == ch].called).sum() == 0]
     for ch in empty:

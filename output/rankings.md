@@ -238,6 +238,45 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 33 | 1934 | Franklin D. Roosevelt | D | +3.4 |
 | **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
+## Senate share of the president's party's seats on the ballot that it lost
+
+| Rank | Year | President | Party | Value |
+|---:|---|---|---|---:|
+| 1 | 1958 | Dwight D. Eisenhower | R | 62% |
+| 2 | 1922 | Warren G. Harding | R | 47% |
+| 3 | 1978 | Jimmy Carter | D | 44% |
+| 4 | 1946 | Harry S. Truman | D | 44% |
+| 5 | 2014 | Barack Obama | D | 43% |
+| 6 | 1986 | Ronald Reagan | R | 41% |
+| 7 | 2006 | George W. Bush | R | 40% |
+| 8 | 1930 | Herbert Hoover | R | 39% |
+| 9 | 1910 | William Howard Taft | R | 38% |
+| 10 | 1994 | Bill Clinton | D | 36% |
+| 11 | 1942 | Franklin D. Roosevelt | D | 33% |
+| 12 | 1954 | Dwight D. Eisenhower | R | 33% |
+| 13 | 1970 | Richard Nixon | R | 33% |
+| 14 | 2010 | Barack Obama | D | 33% |
+| **15** | **2026‡** | **Donald Trump** | **R** | **32%** |
+| 16 | 1918 | Woodrow Wilson | D | 30% |
+| 17 | 1974 | Gerald Ford | R | 29% |
+| 18 | 1950 | Harry S. Truman | D | 27% |
+| 19 | 1894 | Grover Cleveland | D | 27% |
+| 20 | 1926 | Calvin Coolidge | R | 26% |
+| 21 | 1938 | Franklin D. Roosevelt | D | 25% |
+| 22 | 1902 | Theodore Roosevelt | R | 22% |
+| 23 | 2018 | Donald Trump | R | 20% |
+| 24 | 1998 | Bill Clinton | D | 17% |
+| 25 | 1966 | Lyndon B. Johnson | D | 16% |
+| 26 | 1982 | Ronald Reagan | R | 15% |
+| 27 | 1962 | John F. Kennedy | D | 13% |
+| 28 | 1990 | George H. W. Bush | R | 6% |
+| 29 | 2002 | George W. Bush | R | 5% |
+| 30 | 1898 | William McKinley | R | 0% |
+| 31 | 1906 | Theodore Roosevelt | R | 0% |
+| 32 | 1914 | Woodrow Wilson | D | 0% |
+| 33 | 1934 | Franklin D. Roosevelt | D | 0% |
+| 34 | 2022 | Joe Biden | D | 0% |
+
 ## House share of exposed majority lost
 
 | Rank | Year | President | Party | Value |

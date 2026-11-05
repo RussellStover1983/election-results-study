@@ -25,6 +25,7 @@ RANKED = {
     "senate_swing_pct": ("Senate net seat swing (% of chamber)", True),
     "combined_swing": ("Combined net seat swing (seats)", True),
     "combined_swing_pct": ("Combined net seat swing (% of all seats)", True),
+    "senate_up_share_lost": ("Senate share of the president's party's seats on the ballot that it lost", False),
     "house_exposed_share_lost": ("House share of exposed majority lost", False),
     "senate_exposed_share_lost": ("Senate share of exposed majority lost", False),
     "combined_exposed_share_lost": ("Combined share of exposed majority lost", False),
@@ -75,7 +76,7 @@ def write_rankings(df: pd.DataFrame, path_dir) -> None:
         lines += [f"## {label}", "", "| Rank | Year | President | Party | Value |", "|---:|---|---|---|---:|"]
         for r in t.itertuples():
             v = getattr(r, m)
-            val = f"{v:.2f}" if "share" in m else f"{v:+.1f}" if abs(v - round(v)) > 1e-9 else f"{int(v):+d}"
+            val = f"{v:.0%}" if m == "senate_up_share_lost" else f"{v:.2f}" if "share" in m else f"{v:+.1f}" if abs(v - round(v)) > 1e-9 else f"{int(v):+d}"
             cells = [str(r.rank), year_label(r), r.president, r.pres_party[0], val]
             if r.highlight:
                 cells = [f"**{c}**" for c in cells]
