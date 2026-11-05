@@ -115,7 +115,8 @@ def seat_changes(y: int, chamber: str, pres_party: str) -> pd.DataFrame:
     df = pd.DataFrame(rows, columns=["state_seats", "election_year", "chamber", "state", "seat", "matched", "lost",
                                      "gained", "unmatched_lost", "unmatched_gained",
                                      "new_holder_party", "prior_holders"])
-    return attach_lean(df, y, chamber, pres_party)
+    df = attach_lean(df, y, chamber, pres_party)
+    return add_drought(df, y, chamber, pres_party) if chamber == "senate" else df
 
 
 def attach_lean(df: pd.DataFrame, y: int, chamber: str, pres_party: str,
@@ -151,4 +152,48 @@ def attach_lean(df: pd.DataFrame, y: int, chamber: str, pres_party: str,
                 pvi_toward_pres = cmap[k] if pres_party == "Republican" else -cmap[k]
                 df.at[i, "lean_margin"] = pvi_toward_pres
                 df.at[i, "lean_source"] = "Cook PVI"
+    return df
+
+
+# ---------------------------------------------------------------- drought ---
+def last_held(state: str, party: str, before: str, sclass: int | None = None) -> str | None:
+    """Latest date before `before` on which `party` held a Senate seat in
+    `state` (that class only, if given). Appointed senators count as holding.
+    Independents count toward their caucus."""
+    t = leg.terms()
+    x = t[(t.type == "sen") & (t.state == state) & (t.start < before)]
+    if sclass is not None:
+        x = x[x.sclass == sclass]
+    best = None
+    for r in x.itertuples():
+        # party affiliation can change within a term: check each interval
+        spans = list(r.affiliations) or [(r.start, r.end, r.party)]
+        for s_, e_, p_ in spans:
+            if s_ >= before:
+                continue
+            raw = p_ or r.party
+            if leg.caucus_party(r, raw) == party:
+                e = min(e_, before)
+                best = e if best is None or e > best else best
+    return best
+
+
+def add_drought(df: pd.DataFrame, y: int, chamber: str, pres_party: str) -> pd.DataFrame:
+    """For each seat the president's party lost, years since the winning party
+    last held that Senate seat, and since it last held either seat in the state.
+    NaN means never (in the data, which begins in 1789)."""
+    df = df.copy()
+    winner = other_party(pres_party)
+    eday = leg.election_day(y).isoformat()
+    ys, yst = [], []
+    for r in df.itertuples():
+        if getattr(r, "lost", 0) <= 0:
+            ys.append(float("nan")); yst.append(float("nan"))
+            continue
+        a = last_held(r.state, winner, eday, int(r.seat))
+        b = last_held(r.state, winner, eday)
+        ys.append(y - int(a[:4]) if a else float("nan"))
+        yst.append(y - int(b[:4]) if b else float("nan"))
+    df["years_since_seat_held"] = ys
+    df["years_since_state_held"] = yst
     return df

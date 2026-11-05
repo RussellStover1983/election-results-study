@@ -25,6 +25,8 @@ RANKED = {
     "senate_swing_pct": ("Senate net seat swing (% of chamber)", True),
     "combined_swing": ("Combined net seat swing (seats)", True),
     "combined_swing_pct": ("Combined net seat swing (% of all seats)", True),
+    "senate_flip_years_since_seat_mean": ("Senate flips: mean years since the winning party last held that seat", False),
+    "senate_flip_years_since_state_mean": ("Senate flips: mean years since the winning party last held either seat in the state", False),
     "house_held_share_lost": ("House share of the president's party's seats that it lost", False),
     "senate_up_share_lost": ("Senate share of the president's party's seats on the ballot that it lost", False),
     "house_exposed_share_lost": ("House share of exposed majority lost", False),

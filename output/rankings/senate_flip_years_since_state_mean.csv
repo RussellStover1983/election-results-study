@@ -1,0 +1,30 @@
+rank,election_year,president,pres_party,status,senate_flip_years_since_state_mean,highlight
+1,2026,Donald Trump,Republican,preliminary,23.428571428571427,True
+2,1966,Lyndon B. Johnson,Democrat,final,21.333333333333332,False
+3,1978,Jimmy Carter,Democrat,final,19.5,False
+4,1922,Warren G. Harding,Republican,final,13.777777777777779,False
+5,1910,William Howard Taft,Republican,final,12.555555555555555,False
+6,1894,Grover Cleveland,Democrat,final,12.0,False
+7,1990,George H. W. Bush,Republican,final,12.0,False
+8,2018,Donald Trump,Republican,final,11.5,False
+9,1962,John F. Kennedy,Democrat,final,10.0,False
+10,2010,Barack Obama,Democrat,final,8.833333333333334,False
+11,1946,Harry S. Truman,Democrat,final,8.454545454545455,False
+12,2014,Barack Obama,Democrat,final,7.444444444444445,False
+13,1958,Dwight D. Eisenhower,Republican,final,6.846153846153846,False
+14,1994,Bill Clinton,Democrat,final,6.375,False
+15,1902,Theodore Roosevelt,Republican,final,4.5,False
+16,2006,George W. Bush,Republican,final,4.5,False
+17,1930,Herbert Hoover,Republican,final,4.444444444444445,False
+18,1998,Bill Clinton,Democrat,final,4.333333333333333,False
+19,1942,Franklin D. Roosevelt,Democrat,final,3.625,False
+20,1954,Dwight D. Eisenhower,Republican,final,3.6,False
+21,1950,Harry S. Truman,Democrat,final,2.6666666666666665,False
+22,1982,Ronald Reagan,Republican,final,2.5,False
+23,1918,Woodrow Wilson,Democrat,final,2.1666666666666665,False
+24,1986,Ronald Reagan,Republican,final,1.7777777777777777,False
+25,1970,Richard Nixon,Republican,final,1.6666666666666667,False
+26,1938,Franklin D. Roosevelt,Democrat,final,1.5,False
+27,1926,Calvin Coolidge,Republican,final,0.42857142857142855,False
+28,1974,Gerald Ford,Republican,final,0.0,False
+29,2002,George W. Bush,Republican,final,0.0,False

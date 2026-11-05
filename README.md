@@ -74,6 +74,16 @@ All metrics are from the president's party's point of view. "Before" and
      which was used.
    - `*_lean_pvi_style_mean` is the district share minus the national share,
      which is Cook's idea computed from a single election.
+   - **Senate flip droughts** (`senate_flip_years_since_seat_mean` and
+     `_max`, `senate_flip_years_since_state_mean` and `_max`,
+     `senate_flips_ending_30yr_state_drought`): for each Senate seat the
+     president's party lost, how many years it had been since the winning
+     party last held that seat, and since it last held either seat in the
+     state. This measures how deep into hostile territory the losses went,
+     which a single election's lean misses. For example, Kansas in 2026 was the
+     first Democratic Senate win in the state in 87 years. Appointed senators
+     count as holding a seat, and independents count toward their caucus.
+     NaN means the winning party never held the seat in the data.
 4. **National House vote swing** is the president's party's share of the
    two-party national House vote, compared with the prior presidential year and
    with the prior midterm. It is available from 1978 (vs. the presidential

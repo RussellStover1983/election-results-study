@@ -1,0 +1,30 @@
+rank,election_year,president,pres_party,status,senate_flip_years_since_seat_mean,highlight
+1,2026,Donald Trump,Republican,preliminary,47.142857142857146,True
+2,2014,Barack Obama,Democrat,final,40.0,False
+3,2010,Barack Obama,Democrat,final,31.333333333333332,False
+4,1966,Lyndon B. Johnson,Democrat,final,27.0,False
+5,1998,Bill Clinton,Democrat,final,25.333333333333332,False
+6,1978,Jimmy Carter,Democrat,final,23.125,False
+7,2018,Donald Trump,Republican,final,20.0,False
+8,1926,Calvin Coolidge,Republican,final,18.857142857142858,False
+9,1994,Bill Clinton,Democrat,final,18.625,False
+10,1958,Dwight D. Eisenhower,Republican,final,18.46153846153846,False
+11,1946,Harry S. Truman,Democrat,final,17.454545454545453,False
+12,1910,William Howard Taft,Republican,final,16.77777777777778,False
+13,1894,Grover Cleveland,Democrat,final,16.0,False
+14,1950,Harry S. Truman,Democrat,final,16.0,False
+15,1922,Warren G. Harding,Republican,final,14.0,False
+16,1962,John F. Kennedy,Democrat,final,13.333333333333334,False
+17,2006,George W. Bush,Republican,final,13.0,False
+18,1918,Woodrow Wilson,Democrat,final,12.0,False
+19,1990,George H. W. Bush,Republican,final,12.0,False
+20,1986,Ronald Reagan,Republican,final,11.11111111111111,False
+21,1974,Gerald Ford,Republican,final,11.0,False
+22,1954,Dwight D. Eisenhower,Republican,final,10.0,False
+23,1970,Richard Nixon,Republican,final,9.0,False
+24,1930,Herbert Hoover,Republican,final,8.0,False
+25,1942,Franklin D. Roosevelt,Democrat,final,7.375,False
+26,1902,Theodore Roosevelt,Republican,final,5.666666666666667,False
+27,2002,George W. Bush,Republican,final,5.0,False
+28,1938,Franklin D. Roosevelt,Democrat,final,4.5,False
+29,1982,Ronald Reagan,Republican,final,2.5,False

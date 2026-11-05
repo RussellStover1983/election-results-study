@@ -238,6 +238,74 @@ Most severe first. **Bold rows = 2026.** ‡ = preliminary (uncalled races remai
 | 33 | 1934 | Franklin D. Roosevelt | D | +3.4 |
 | **—** | **2026‡** | **Donald Trump** | **R** | **no result yet (preliminary)** |
 
+## Senate flips: mean years since the winning party last held that seat
+
+| Rank | Year | President | Party | Value |
+|---:|---|---|---|---:|
+| **1** | **2026‡** | **Donald Trump** | **R** | **+47.1** |
+| 2 | 2014 | Barack Obama | D | +40 |
+| 3 | 2010 | Barack Obama | D | +31.3 |
+| 4 | 1966 | Lyndon B. Johnson | D | +27 |
+| 5 | 1998 | Bill Clinton | D | +25.3 |
+| 6 | 1978 | Jimmy Carter | D | +23.1 |
+| 7 | 2018 | Donald Trump | R | +20 |
+| 8 | 1926 | Calvin Coolidge | R | +18.9 |
+| 9 | 1994 | Bill Clinton | D | +18.6 |
+| 10 | 1958 | Dwight D. Eisenhower | R | +18.5 |
+| 11 | 1946 | Harry S. Truman | D | +17.5 |
+| 12 | 1910 | William Howard Taft | R | +16.8 |
+| 13 | 1894 | Grover Cleveland | D | +16 |
+| 14 | 1950 | Harry S. Truman | D | +16 |
+| 15 | 1922 | Warren G. Harding | R | +14 |
+| 16 | 1962 | John F. Kennedy | D | +13.3 |
+| 17 | 2006 | George W. Bush | R | +13 |
+| 18 | 1918 | Woodrow Wilson | D | +12 |
+| 19 | 1990 | George H. W. Bush | R | +12 |
+| 20 | 1986 | Ronald Reagan | R | +11.1 |
+| 21 | 1974 | Gerald Ford | R | +11 |
+| 22 | 1954 | Dwight D. Eisenhower | R | +10 |
+| 23 | 1970 | Richard Nixon | R | +9 |
+| 24 | 1930 | Herbert Hoover | R | +8 |
+| 25 | 1942 | Franklin D. Roosevelt | D | +7.4 |
+| 26 | 1902 | Theodore Roosevelt | R | +5.7 |
+| 27 | 2002 | George W. Bush | R | +5 |
+| 28 | 1938 | Franklin D. Roosevelt | D | +4.5 |
+| 29 | 1982 | Ronald Reagan | R | +2.5 |
+
+## Senate flips: mean years since the winning party last held either seat in the state
+
+| Rank | Year | President | Party | Value |
+|---:|---|---|---|---:|
+| **1** | **2026‡** | **Donald Trump** | **R** | **+23.4** |
+| 2 | 1966 | Lyndon B. Johnson | D | +21.3 |
+| 3 | 1978 | Jimmy Carter | D | +19.5 |
+| 4 | 1922 | Warren G. Harding | R | +13.8 |
+| 5 | 1910 | William Howard Taft | R | +12.6 |
+| 6 | 1894 | Grover Cleveland | D | +12 |
+| 7 | 1990 | George H. W. Bush | R | +12 |
+| 8 | 2018 | Donald Trump | R | +11.5 |
+| 9 | 1962 | John F. Kennedy | D | +10 |
+| 10 | 2010 | Barack Obama | D | +8.8 |
+| 11 | 1946 | Harry S. Truman | D | +8.5 |
+| 12 | 2014 | Barack Obama | D | +7.4 |
+| 13 | 1958 | Dwight D. Eisenhower | R | +6.8 |
+| 14 | 1994 | Bill Clinton | D | +6.4 |
+| 15 | 1902 | Theodore Roosevelt | R | +4.5 |
+| 16 | 2006 | George W. Bush | R | +4.5 |
+| 17 | 1930 | Herbert Hoover | R | +4.4 |
+| 18 | 1998 | Bill Clinton | D | +4.3 |
+| 19 | 1942 | Franklin D. Roosevelt | D | +3.6 |
+| 20 | 1954 | Dwight D. Eisenhower | R | +3.6 |
+| 21 | 1950 | Harry S. Truman | D | +2.7 |
+| 22 | 1982 | Ronald Reagan | R | +2.5 |
+| 23 | 1918 | Woodrow Wilson | D | +2.2 |
+| 24 | 1986 | Ronald Reagan | R | +1.8 |
+| 25 | 1970 | Richard Nixon | R | +1.7 |
+| 26 | 1938 | Franklin D. Roosevelt | D | +1.5 |
+| 27 | 1926 | Calvin Coolidge | R | +0.4 |
+| 28 | 1974 | Gerald Ford | R | +0 |
+| 29 | 2002 | George W. Bush | R | +0 |
+
 ## House share of the president's party's seats that it lost
 
 | Rank | Year | President | Party | Value |

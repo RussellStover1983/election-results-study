@@ -125,7 +125,7 @@ def build(seats: pd.DataFrame, house_vote: pd.DataFrame, baseline: str) -> tuple
 
 
 def senate_up_metrics(y: int, P: str, lost: int | None = None, gained: int | None = None,
-                      up: pd.DataFrame | None = None) -> dict:
+                      up: pd.DataFrame | None = None, changes: pd.DataFrame | None = None) -> dict:
     """Senate seats actually on the ballot, and the share of the president's
     party's seats on the ballot that it lost (a fairer Senate measure than raw
     swing, because a party's exposure varies from 10 to 30+ seats a cycle)."""
@@ -133,12 +133,26 @@ def senate_up_metrics(y: int, P: str, lost: int | None = None, gained: int | Non
         b = leg.seat_holders(y, "senate", "election_day")
         up = b[b.end <= leg.congress_start(y).isoformat()]
     if lost is None:
-        ch = fl.seat_changes(y, "senate", P)
-        lost, gained = int(ch.lost.sum()), int(ch.gained.sum())
+        changes = fl.seat_changes(y, "senate", P)
+        lost, gained = int(changes.lost.sum()), int(changes.gained.sum())
     n = int((up.party == P).sum())
-    return {"senate_pres_seats_up": n, "senate_opp_seats_up": int(len(up) - n),
+    out = drought_metrics(changes) if changes is not None else {}
+    return out | {"senate_pres_seats_up": n, "senate_opp_seats_up": int(len(up) - n),
             "senate_pres_seats_up_lost": lost, "senate_opp_seats_up_won": gained,
             "senate_up_share_lost": (lost / n) if n else math.nan}
+
+
+def drought_metrics(changes: pd.DataFrame) -> dict:
+    """How long the winning party had been shut out of the Senate seats it took."""
+    lost = changes[changes.lost > 0] if "lost" in changes else changes.iloc[0:0]
+    if "years_since_seat_held" not in lost or lost.empty:
+        return {"senate_flip_years_since_seat_mean": math.nan, "senate_flip_years_since_seat_max": math.nan,
+                "senate_flip_years_since_state_mean": math.nan, "senate_flip_years_since_state_max": math.nan,
+                "senate_flips_ending_30yr_state_drought": 0 if lost.empty else math.nan}
+    s, st = lost.years_since_seat_held, lost.years_since_state_held
+    return {"senate_flip_years_since_seat_mean": s.mean(), "senate_flip_years_since_seat_max": s.max(),
+            "senate_flip_years_since_state_mean": st.mean(), "senate_flip_years_since_state_max": st.max(),
+            "senate_flips_ending_30yr_state_drought": int((st >= 30).sum())}
 
 
 def house_held_metrics(row: dict) -> dict:
@@ -254,14 +268,15 @@ def build_2026(seats: pd.DataFrame, house_vote: pd.DataFrame, calls: pd.DataFram
         if ch == "senate":
             up = c.rename(columns={"incumbent_party": "party"})
             unc_p = int(((~c.called) & (c.incumbent_party == P)).sum())
-            row.update(senate_up_metrics(y, P, lost=len(ch_flips), gained=len(ch_gain), up=up))
+            row.update(senate_up_metrics(y, P, lost=len(ch_flips), gained=len(ch_gain), up=up,
+                                         changes=fl.add_drought(lean.assign(lost=1), y, ch, P)))
             row["senate_up_share_lost_max"] = (len(ch_flips) + unc_p) / row["senate_pres_seats_up"]
         else:
             row["house_held_share_lost"] = len(ch_flips) / row["house_seats_before"] if len(called) else math.nan
             row["house_held_share_basis"] = "gross seats lost (called races only)"
             row["house_held_share_lost_max"] = (len(ch_flips) + int(((~c.called) & (c.incumbent_party == P)).sum())) \
                 / row["house_seats_before"]
-    keep = ("held_share_basis", "held_share_lost_max", "seats_up", "up_lost", "up_won", "share_lost_max", "seats_before", "opp_seats_before", "chamber_size", "baseline_used", "seat_source", "uncalled",
+    keep = ("flip_years_since", "flips_ending", "held_share_basis", "held_share_lost_max", "seats_up", "up_lost", "up_won", "share_lost_max", "seats_before", "opp_seats_before", "chamber_size", "baseline_used", "seat_source", "uncalled",
             "held_majority", "exposed_majority", "control_before", "swing_min", "swing_max")
     empty = [ch for ch in CHAMBERS if (calls[calls.chamber == ch].called).sum() == 0]
     for ch in empty:
