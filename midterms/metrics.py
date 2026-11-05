@@ -116,6 +116,7 @@ def build(seats: pd.DataFrame, house_vote: pd.DataFrame, baseline: str) -> tuple
                 for k, v in lean_metrics(ch_changes).items():
                     row[f"{ch}_{k}"] = v
         row.update(senate_up_metrics(y, P))
+        row.update(house_held_metrics(row))
         row.update(vote_metrics(hv, y, P))
         rows.append(row)
     df = combine(pd.DataFrame(rows))
@@ -138,6 +139,23 @@ def senate_up_metrics(y: int, P: str, lost: int | None = None, gained: int | Non
     return {"senate_pres_seats_up": n, "senate_opp_seats_up": int(len(up) - n),
             "senate_pres_seats_up_lost": lost, "senate_opp_seats_up_won": gained,
             "senate_up_share_lost": (lost / n) if n else math.nan}
+
+
+def house_held_metrics(row: dict) -> dict:
+    """Share of the House seats the president's party held that it lost.
+
+    Every House seat is on the ballot, so the denominator is seats held going
+    in. Gross seat-by-seat losses (1954+) are used where available; earlier
+    years fall back to the net loss, flagged in house_held_share_basis."""
+    held = row.get("house_seats_before")
+    gross = row.get("house_flips_against")
+    if gross is not None and not (isinstance(gross, float) and math.isnan(gross)):
+        lost, basis = gross, "gross seats lost"
+    else:
+        lost, basis = max(0, -row["house_swing"]) if not math.isnan(row["house_swing"]) else math.nan, \
+            "net seats lost"
+    return {"house_held_share_lost": lost / held if held and not math.isnan(lost) else math.nan,
+            "house_held_share_basis": basis}
 
 
 def vote_metrics(hv: pd.Series, y: int, P: str) -> dict:
@@ -238,7 +256,12 @@ def build_2026(seats: pd.DataFrame, house_vote: pd.DataFrame, calls: pd.DataFram
             unc_p = int(((~c.called) & (c.incumbent_party == P)).sum())
             row.update(senate_up_metrics(y, P, lost=len(ch_flips), gained=len(ch_gain), up=up))
             row["senate_up_share_lost_max"] = (len(ch_flips) + unc_p) / row["senate_pres_seats_up"]
-    keep = ("seats_up", "up_lost", "up_won", "share_lost_max", "seats_before", "opp_seats_before", "chamber_size", "baseline_used", "seat_source", "uncalled",
+        else:
+            row["house_held_share_lost"] = len(ch_flips) / row["house_seats_before"] if len(called) else math.nan
+            row["house_held_share_basis"] = "gross seats lost (called races only)"
+            row["house_held_share_lost_max"] = (len(ch_flips) + int(((~c.called) & (c.incumbent_party == P)).sum())) \
+                / row["house_seats_before"]
+    keep = ("held_share_basis", "held_share_lost_max", "seats_up", "up_lost", "up_won", "share_lost_max", "seats_before", "opp_seats_before", "chamber_size", "baseline_used", "seat_source", "uncalled",
             "held_majority", "exposed_majority", "control_before", "swing_min", "swing_max")
     empty = [ch for ch in CHAMBERS if (calls[calls.chamber == ch].called).sum() == 0]
     for ch in empty:

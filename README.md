@@ -56,6 +56,11 @@ All metrics are from the president's party's point of view. "Before" and
      `senate_opp_seats_up_won` records any offsetting gains. For a preliminary
      2026, `senate_up_share_lost_max` assumes the party also loses every
      uncalled seat it holds. Before 1914 the "ballot" was the state legislature.
+   - **House share of held seats lost** (`house_held_share_lost`): House
+     seats the president's party lost, divided by the seats it held going in.
+     Every House seat is on the ballot, so the denominator is all the party's
+     seats. From 1954 this uses gross seat-by-seat losses; earlier years use
+     the net loss (`house_held_share_basis` says which).
 3. **Partisan-lean-weighted flips (1954+; 1952 was not a midterm).** For each
    seat that flipped against the president's party, the lean is that party's
    two-party margin, in points, in the previous presidential election in that
